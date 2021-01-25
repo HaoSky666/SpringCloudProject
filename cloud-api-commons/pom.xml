@@ -20,11 +20,14 @@
             <optional>true</optional>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <version>1.18.16</version>
+            <scope>provided</scope>
         </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
         <!--糊涂工具包，时间、日期格式-->
